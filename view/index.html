@@ -1,112 +1,148 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="icon" type="image/x-icon" href="../img/logos/tentouya_logo.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="../img/logos/tentouya_logo.png">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-	<script>
-		(function(d) {
-			var config = {
-				kitId: 'jsg4fjz',
-				scriptTimeout: 3000,
-				async: true
-			},
-			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-		})(document);
-	</script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../img/logos/tentouya_logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/logos/tentouya_logo.png">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script src="../js/adobeFontsImport.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179081913-1"></script>
+    <script src="../js/googleAnalyticsImport.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script src="../js/smoothNavigation.js"></script>
 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179081913-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-179081913-1');
-	</script>
-
-	<title>てんとうや</title>
-	<meta name="viewport" content="width=device-width">
+    <title>てんとうや</title>
+    <meta name="viewport" content="width=device-width">
 </head>
 
 <body oncontextmenu='return false;' oncopy='return false;'>
-	<div class="bg">
+    <div class="bg">
 
-		<div id="loading">
-			<div class="loading-item-1">
-				<div class="loading-item-item-1"></div>
-				<div class="loading-item-item-1"></div>
-			</div>
-			<div class="loading-item-2">
-				<div class="loading-item-item-2"></div>
-				<div class="loading-item-item-2"></div>
-			</div>
-			<p>Loading..</p>
-		</div>
+        <div id="loading">
+            <div class="loading-item-1">
+                <div class="loading-item-item-1"></div>
+                <div class="loading-item-item-1"></div>
+            </div>
+            <div class="loading-item-2">
+                <div class="loading-item-item-2"></div>
+                <div class="loading-item-item-2"></div>
+            </div>
+            <p>Loading..</p>
+        </div>
 
-		<header>
-			<a href="index.html" class="logo protect">
-				<p><img src="../img/logos/tentouya_logo.png" alt="てんとうや"><span>てんとうや</span></p>
-      </a>
-		</header>
+        <header>
+            <a href="index.html" class="logo heighlight protect">
+                <p><img src="../img/logos/tentouya_logo.png" alt="てんとうや"><span>てんとうや</span></p>
+            </a>
+        </header>
 
-		<div>
-			<p class="creator-explanation">てんとうやのホームページです。<br>テントウムシを中心に、昆虫グッズを作っています。</p>
-		</div>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="#sns">SNS</a>
+                </li>
+                <li>
+                    <a href="#base">ショップ(BASE)</a>
+                </li>
+                <li>
+                    <a href="#suzuri">ショップ(SUZURI)</a>
+                </li>
+                <li>
+                    <a href="#fukuwarai">テントウ福笑い</a>
+                </li>
+            </ul>
+            <div id="nav-shadow-right"></div>
+            <script src="../js/switchNavShadowByHorixontalScroll.js"></script>
+        </nav>
 
-		<div class="flex-container">
-		<div class="flex-hover">
-				<a href="https://tentouya.base.shop/" class="flex-item">
-					<div class="flex-item-item"><img src="../img/thumbnails/tentouya_home_base_preview.png" alt="てんとうや" class="flex-img protect"></div>
-					<div class="flex-item-item flex-title"><p>BASE</p></div>
-					<div class="flex-item-item explanation"><p>てんとうやのオリジナルグッズを販売しています!</p></div>
-				</a>
-			</div>
-			<div class="flex-hover">
-				<a href="https://suzuri.jp/Tentouya" class="flex-item">
-					<div class="flex-item-item"><img src="../img/thumbnails/tentouya_home_suzuri_preview.png" alt="てんとうや" class="flex-img protect"></div>
-					<div class="flex-item-item flex-title"><p>SUZURI</p></div>
-					<div class="flex-item-item explanation"><p>テントウムシのTシャツなどを販売しています。</p></div>
-				</a>
-			</div>
-			<div class="flex-hover">
-				<a href="https://twitter.com/tentouya64?lang=ja" class="flex-item">
-					<div class="flex-item-item"><img src="../img/thumbnails/Twitter_Logo_Blue.png" class="twitter-logo protect"></div>
-					<div class="flex-item-item flex-title"><p>Twitter</P></div>
-					<div class="flex-item-item explanation"><p>てんとうやのTwitterアカウントです。</p></div>
-				</a>
-			</div>
-			<div class="flex-hover">
-				<a href="tentoufukuwarai.html" class="flex-item">
-					<div class="flex-item-item"><img src="../img/thumbnails/tentoufukuwarai_preview.png" alt="てんとうや" class="flex-img protect"></div>
-					<div class="flex-item-item flex-title"><p>テントウ福笑い</p></div>
-					<div class="flex-item-item flex-explanation"><p>テントウムシの福笑いを作ってみました。Web上で遊べます。</p></div>
-				</a>
-			</div>
-		</div>
+        <div class="section" id="sns">
+            <p class="title">SNS</p>
+            <p class="supporting-text">てんとうやは、テントウムシを中心に昆虫グッズを作っています。<br>Twitterでグッズなどの最新情報を更新しています。</p>
+            <a href="https://twitter.com/tentouya64?lang=ja" class="sns-logo heighlight" target="_blank" rel="noopener noreferrer"><img src="../img/thumbnails/Twitter_Logo_Blue.png" class="img"></a>
+        </div>
 
-		<div>
-		</div>
+        <div class="section" id="base">
+            <p class="title">ショップ(BASE)</p>
+            <p class="supporting-text">てんとうやのオリジナルグッズを販売しています！</p>
+            <a href="https://tentouya.base.shop/" class="link heighlight" target="_blank" rel="noopener noreferrer">
+                ショップへ >
+            </a>
 
-		<footer>&copy; 2020 てんとうや</footer>
+            <div class="section-item">
+                <img src="../img/thumbnails/DE764B67-66F8-47E5-8C7F-8D278282412B-954-0000013297990AFE.jpg" class="work-img left-border-radius protect">
+                <div class="work-text">
+                    <p class="work-title">カメノコテントウのペーパークラフト</p>
+                    <p class="work-description">日本最大級のテントウムシ、カメノコテントウ。細かいパーツまでリアルに作りました。切り込みを模様に重ね、継ぎ目の見えない構造になっています。</p>
+                    <p class="align-center"><a href="https://tentouya.base.shop/items/36443218" class="link heighlight" target="_blank" rel="noopener noreferrer">購入ページへ ></a></p>
+                </div>
+            </div>
 
-		<script>
-			$("img").bind
-			("contextmenu", function(e)
-			{return false;});
-			$(".protect").mousedown
-			(function(e)
-			{return false;}
-			);
-			</script>
+            <div class="section-item">
+                <img src="../img/thumbnails/04F17DD3-2498-476E-9BC7-0ECB5F875BB1-42223-0000189D97AA8B00.jpg" class="work-img left-border-radius  protect">
+                <div class="work-text">
+                    <p class="work-title">テントウムシの正面顔絵はがき</p>
+                    <p class="work-description">普段なかなか見ることのないテントウムシの正面顔を絵はがきにしました。種類によって様々な特徴があることに気付くと、虫を見る楽しみが更に増えていくと思います！</p>
+                    <p class="align-center"><a href="https://tentouya.base.shop/items/36377473" class="link heighlight" target="_blank" rel="noopener noreferrer">購入ページへ ></a></p>
+                </div>
+            </div>
 
-		<script>
-			window.onload = function() {
-  			const spinner = document.getElementById('loading');
-  			spinner.classList.add('loaded');
-			}
-		</script>
-	</div>
+            <a href="https://tentouya.base.shop/" class="link heighlight" target="_blank" rel="noopener noreferrer">
+                もっとみる >
+            </a>
+        </div>
+
+        <div class="section" id="suzuri">
+            <p class="title">ショップ(SUZURI)</p>
+            <p class="supporting-text">Tシャツやスマホケースを販売しています。</p>
+            <a href="https://suzuri.jp/Tentouya" class="link heighlight" target="_blank" rel="noopener noreferrer">
+                ショップへ >
+            </a>
+
+            <div class="section-item">
+                <img src="../img/thumbnails/yahoshitshirt.png" class="work-img left-border-radius  protect">
+                <div class="work-text">
+                    <p class="work-title">ヤホシテントウのTシャツ</p>
+                    <p class="work-description">沖縄より南にしかいないテントウムシ。湿地に生える植物の葉の上で生活しています。様々なバリエーションの模様をしているのにヤホシという名前が付いているのは、学名から取っているからでしょう。</p>
+                    <p class="align-center"><a href="https://suzuri.jp/Tentouya/4834232/t-shirt/m/white" class="link heighlight" target="_blank" rel="noopener noreferrer">購入ページへ ></a></p>
+                </div>
+            </div>
+
+            <div class="section-item">
+                <img src="../img/thumbnails/poppunatenntoumushisumahokesu.png" class="work-img left-border-radius  protect">
+                <div class="work-text">
+                    <p class="work-title">スマホケース</p>
+                    <p class="work-description">様々なテントウムシをプリントしたポップなスマホケースです。テントウ同士の大きさは、それぞれ実際の比率に近いものになっています。図鑑で種類を調べて楽しむのもおすすめです！</p>
+                    <p class="align-center"><a href="https://suzuri.jp/Tentouya/6006972/book-style-smartphone-case/iphone12/white" class="link heighlight" target="_blank" rel="noopener noreferrer">購入ページへ ></a></p>
+                </div>
+            </div>
+
+            <a href="https://suzuri.jp/Tentouya" class="link heighlight" target="_blank" rel="noopener noreferrer">
+                もっとみる >
+            </a>
+        </div>
+
+        <div class="section" id="fukuwarai">
+            <p class="title">テントウ福笑い</p>
+            <p class="supporting-text">Web上で遊べるテントウムシの福笑いを作ってみました。</p>
+
+            <div class="section-item">
+                <img src="../img/thumbnails/screenshot-2021-02-01%2015.18.00.jpg" class="work-img left-border-radius  protect">
+                <div class="work-text">
+                    <p class="work-description">テントウムシたちの模様がバラバラになってしまいました！記憶を頼りに、元の姿に戻しましょう！</p>
+                    <p class="align-center"><a href="tentoufukuwarai.html" class="link heighlight">あそぶ ></a></p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>&copy; 2020 てんとうや</footer>
+
+        <script src="../js/refuseContextMenu.js"></script>
+        <script src="../js/dismissLoadingView.js"></script>
+    </div>
 </body>
+
 </html>
