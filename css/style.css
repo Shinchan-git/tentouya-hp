@@ -24,6 +24,8 @@ p {
 
 a {
     text-decoration: none;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-style: normal;
 }
 
 .bg {
