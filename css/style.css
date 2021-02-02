@@ -241,6 +241,10 @@ nav ul li {
 nav ul li a {
     color: rgb(50, 50, 50);
     text-decoration: none;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
 }
 
 nav li a:hover {
@@ -339,15 +343,6 @@ nav li a:hover {
         position: relative;
     }
 
-    nav ul {
-        width: 450px;
-    }
-
-    nav ul li {
-        margin: 2px 15px;
-        font-size: 9pt;
-    }
-
     .work-img {
         width: 100%;
     }
@@ -362,6 +357,10 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 480px) {
+    nav ul li a {
+        font-size: 9pt;
+    }
+
     .section {
         width: 90%;
         padding: 10px;
