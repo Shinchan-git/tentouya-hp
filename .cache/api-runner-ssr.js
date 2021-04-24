@@ -1,6 +1,6 @@
 var plugins = [{
       name: 'gatsby-plugin-image',
-      plugin: require('/Users/owner/Desktop/web_design/tentouya_home/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('/Users/owner/Desktop/web_design/tentouya_hp/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
