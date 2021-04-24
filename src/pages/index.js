@@ -23,7 +23,7 @@ const IndexPage = () => {
 
       <PageTopSentence>
         <p className="medium main-text">
-          てんとうやは、テントウムシを中心に昆虫グッズを作っています！
+          てんとうやは、テントウムシを中心に昆虫グッズを作っています。
         </p>
       </PageTopSentence>
 
