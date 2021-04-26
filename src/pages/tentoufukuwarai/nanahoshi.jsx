@@ -15,6 +15,10 @@ const FukuwaraiNanahoshi = () => {
       <meta name="author" content="てんとうや" />
       <meta name="description" content="てんとうやのホームページ" />
       <meta name="viewport" content="width=device-width" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@tentouya64" />
+      <meta name="twitter:title" content="テントウ福笑い - てんとうや" />
+      <meta name="twitter:image" content="https://tentouya.netlify.app/static/c3f6b5af837cd036b174925c47d0c1f6/9e5f6/fukuwarai_thumbnail.jpg" />
 
       <Header />
       <div className="line-padding-10" />
