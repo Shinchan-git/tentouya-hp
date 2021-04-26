@@ -28,6 +28,10 @@ const KamenokoPapercraft = () => {
       <meta name="author" content="てんとうや" />
       <meta name="description" content="てんとうやのホームページ" />
       <meta name="viewport" content="width=device-width" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@tentouya64" />
+      <meta name="twitter:title" content="カメノコテントウのペーパークラフト - てんとうや" />
+      <meta name="twitter:image" content="https://tentouya.netlify.app/static/b1eb75493e2657bc4252bd7cf27e2934/2b6b9/kamenoko_img.jpg" />
 
       <Header />
       <div className="line-padding-10" />
