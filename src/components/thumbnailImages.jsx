@@ -2,6 +2,66 @@ import React from "react"
 import "../css/global.css"
 import { StaticImage } from "gatsby-plugin-image"
 
+export function TentouPlayingCardsImg(props) {
+  if (props.page === "top") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/tentoucards_color_1.jpg"
+        placeholder="blurred"
+        className="card-img left-border-radius"
+      />
+    )
+  } else if (props.page === "works") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/tentoucards_color_1.jpg"
+        placeholder="blurred"
+        className="works-card-img"
+      />
+    )
+  } else {
+    return (
+      <StaticImage
+        src="../images/thumbnails/tentoucards_color_1.jpg"
+        placeholder="blurred"
+      />
+    )
+  }
+}
+
+export function TentouPlayingCardsImages(props) {
+  switch (props.imgNum) {
+    case "1":
+      return (
+        <StaticImage
+          src="../images/thumbnails/tentoucards_color_1.jpg"
+          placeholder="blurred"
+        />
+      )
+    case "2":
+      return (
+        <StaticImage
+          src="../images/thumbnails/tentoucards_2.jpg"
+          placeholder="blurred"
+        />
+      )
+    case "3":
+      return (
+        <StaticImage
+          src="../images/thumbnails/tentoucards_3.jpg"
+          placeholder="blurred"
+        />
+      )
+    case "4":
+      return (
+        <StaticImage
+          src="../images/thumbnails/tentoucards_4.jpg"
+          placeholder="blurred"
+        />
+      )
+  }
+}
+
 export function KamenokoImg(props) {
   if (props.page === "top") {
     return (

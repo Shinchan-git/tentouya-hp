@@ -289,7 +289,7 @@ header {
 .works-detail {
     background-color: #ffffff;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
     padding: 30px;
 }
 
@@ -461,7 +461,7 @@ header {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .fukuwarai-base{
         padding: 1vw;
         margin: 3vw 1vw;
@@ -503,6 +503,24 @@ header {
 
     .fukuwarai-summary{
         margin: 3vw 1vw;
+    }
+}
+
+.tentou-cards-data {
+    margin: 20px 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.tentou-cards-data-description {
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .tentou-cards-data-description {
+        padding-left: 17px;
     }
 }
 

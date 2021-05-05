@@ -1,8 +1,17 @@
 //BASE
+export const tentouPlayingCards = {
+  title: "テントウトランプ",
+  description: "日本には現在約190種のテントウムシがいます。その中から、トランプの数字に対応する模様を持った36種を選び、リアルなイラストに仕上げました。それぞれの種類の体型・触角・眼・脚など、各部位の形状にもこだわった、超マニアックな一品です！",
+  link: "https://tentouya.base.shop/items/43945825",
+  detailLink: "/works/tentou-playing-cards",
+  twitterImg: "https://tentouya.netlify.app/static/49dc69f3cfca2e087793f78a0dc2e22e/2b6b9/tentoucards_color_1.jpg"
+}
+
 export const kamenokoPapercraft = {
   title: "カメノコテントウのペーパークラフト",
   description: "日本最大級のテントウムシ、カメノコテントウ。細かいパーツまでリアルに作りました。切り込みを模様に重ね、継ぎ目の見えない構造になっています。",
   link: "https://tentouya.base.shop/items/36443218",
+  detailLink: "/works/kamenokotentou-papercraft",
   twitterImg: "https://tentouya.netlify.app/static/b1eb75493e2657bc4252bd7cf27e2934/2b6b9/kamenoko_img.jpg"
 }
 

@@ -15,6 +15,7 @@ exports.components = {
   "component---src-pages-works-kamenokotentou-papercraft-jsx": () => import("./../../../src/pages/works/kamenokotentou-papercraft.jsx" /* webpackChunkName: "component---src-pages-works-kamenokotentou-papercraft-jsx" */),
   "component---src-pages-works-phone-case-pop-jsx": () => import("./../../../src/pages/works/phone-case-pop.jsx" /* webpackChunkName: "component---src-pages-works-phone-case-pop-jsx" */),
   "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx": () => import("./../../../src/pages/works/phone-case-tatesujihimejinngasahamushi.jsx" /* webpackChunkName: "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx" */),
+  "component---src-pages-works-tentou-playing-cards-jsx": () => import("./../../../src/pages/works/tentou-playing-cards.jsx" /* webpackChunkName: "component---src-pages-works-tentou-playing-cards-jsx" */),
   "component---src-pages-works-tentou-postcard-1-jsx": () => import("./../../../src/pages/works/tentou-postcard-1.jsx" /* webpackChunkName: "component---src-pages-works-tentou-postcard-1-jsx" */),
   "component---src-pages-works-tentou-postcard-2-jsx": () => import("./../../../src/pages/works/tentou-postcard-2.jsx" /* webpackChunkName: "component---src-pages-works-tentou-postcard-2-jsx" */),
   "component---src-pages-works-yahoshi-tshirt-jsx": () => import("./../../../src/pages/works/yahoshi-tshirt.jsx" /* webpackChunkName: "component---src-pages-works-yahoshi-tshirt-jsx" */)

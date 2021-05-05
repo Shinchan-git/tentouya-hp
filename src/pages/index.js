@@ -7,8 +7,8 @@ import SectionLarge from "../components/sectionLarge"
 import ShopLink from "../components/shopLink"
 import Card from "../components/card"
 import Footer from "../components/footer"
-import { kamenokoPapercraft, tentouPostCardA, yahoshiTShirt, fukuwarai } from "../components/worksData"
-import { KamenokoImg, PostcardAImg, YahoshiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, yahoshiTShirt, fukuwarai } from "../components/worksData"
+import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, YahoshiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
 
 const IndexPage = () => {
   return (
@@ -43,7 +43,10 @@ const IndexPage = () => {
       <SectionLarge title="グッズ" id="works">
         <Link to={"/works"} className="link highlight">すべてみる&nbsp;&gt;</Link>
 
-        <Card title={kamenokoPapercraft.title} description={kamenokoPapercraft.description} link={kamenokoPapercraft.link}>
+        <Card title={tentouPlayingCards.title} description={tentouPlayingCards.description} link={tentouPlayingCards.link} toLink="detail" detailLink={tentouPlayingCards.detailLink}>
+          <TentouPlayingCardsImg page="top" />
+        </Card>
+        <Card title={kamenokoPapercraft.title} description={kamenokoPapercraft.description} link={kamenokoPapercraft.link} toLink="detail" detailLink={kamenokoPapercraft.detailLink}>
           <KamenokoImg page="top" />
         </Card>
         <Card title={tentouPostCardA.title} description={tentouPostCardA.description} link={tentouPostCardA.link}>
@@ -60,7 +63,7 @@ const IndexPage = () => {
         <p class="main-text">
           Web上で遊べるテントウムシの福笑いを作ってみました。
         </p>
-        <Card description={fukuwarai.description} link={fukuwarai.link} routerLink="true">
+        <Card description={fukuwarai.description} link={fukuwarai.link} toLink="fukuwarai">
           <FukuwaraiImg />
         </Card>
       </SectionLarge>

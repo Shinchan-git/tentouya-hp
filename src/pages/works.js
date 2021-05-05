@@ -4,8 +4,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import WorksCard from "../components/worksCard"
 import BackButton from "../components/backButton"
-import { kamenokoPapercraft, tentouPostCardA, tentouPostCardB, yahoshiTShirt, amidaTShirt, phoneCaseTatesujihime, phoneCasePop, blanketPop } from "../components/worksData"
-import { KamenokoImg, PostcardAImg, PostcardBImg, YahoshiTShirtImg, AmidaTShirtImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg, BlanketPopImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, tentouPostCardB, yahoshiTShirt, amidaTShirt, phoneCaseTatesujihime, phoneCasePop, blanketPop } from "../components/worksData"
+import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, PostcardBImg, YahoshiTShirtImg, AmidaTShirtImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg, BlanketPopImg } from "../components/thumbnailImages"
 
 const Works = () => {
   return (
@@ -27,6 +27,10 @@ const Works = () => {
         <BackButton link="/" text="トップ" />
         <p className="title text-center">グッズ一覧</p>
         <div className="works-card-container">
+          <WorksCard link="/works/tentou-playing-cards" title={tentouPlayingCards.title}>
+            <TentouPlayingCardsImg page="works" />
+          </WorksCard>
+
           <WorksCard link="/works/kamenokotentou-papercraft" title={kamenokoPapercraft.title}>
             <KamenokoImg page="works" />
           </WorksCard>

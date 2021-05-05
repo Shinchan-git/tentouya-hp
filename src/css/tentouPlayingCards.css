@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+
+.scientific-name-italic {
+    font-family: 'Noto Serif';
+    font-style: italic;
+}
+
+.scientific-name-upright {
+    font-family: 'Noto Serif';
+    font-style: normal;
+}

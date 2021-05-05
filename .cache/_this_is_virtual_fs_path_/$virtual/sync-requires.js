@@ -17,6 +17,7 @@ exports.components = {
   "component---src-pages-works-kamenokotentou-papercraft-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/kamenokotentou-papercraft.jsx")),
   "component---src-pages-works-phone-case-pop-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/phone-case-pop.jsx")),
   "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/phone-case-tatesujihimejinngasahamushi.jsx")),
+  "component---src-pages-works-tentou-playing-cards-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/tentou-playing-cards.jsx")),
   "component---src-pages-works-tentou-postcard-1-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/tentou-postcard-1.jsx")),
   "component---src-pages-works-tentou-postcard-2-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/tentou-postcard-2.jsx")),
   "component---src-pages-works-yahoshi-tshirt-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/yahoshi-tshirt.jsx"))
