@@ -3,12 +3,13 @@ import { Link } from "gatsby"
 import "../css/global.css"
 import Header from "../components/header"
 import PageTopSentence from "../components/pageTopSentence"
+import TopNews from "../components/topNews"
 import SectionLarge from "../components/sectionLarge"
 import ShopLink from "../components/shopLink"
 import Card from "../components/card"
 import Footer from "../components/footer"
-import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, yahoshiTShirt, fukuwarai } from "../components/worksData"
-import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, YahoshiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, kasaiTShirt, fukuwarai } from "../components/worksData"
+import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, KasaiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
 
 const IndexPage = () => {
   return (
@@ -27,18 +28,16 @@ const IndexPage = () => {
 
       <PageTopSentence>
         <p className="medium main-text">
-          てんとうやは、テントウムシを中心に昆虫グッズを作っています。
-        </p>
-      </PageTopSentence>
-
-      <SectionLarge title="SNS" id="sns">
-        <p class="main-text">
-          Twitterでグッズやイベント出展の情報を更新しています。
+          テントウムシを中心に昆虫グッズを作っています。
         </p>
         <ShopLink title="Twitter" link="https://twitter.com/tentouya64?lang=ja">
           <span className="link highlight">@tentouya64&nbsp;&#8599;</span>
         </ShopLink>
-      </SectionLarge>
+      </PageTopSentence>
+
+      <div className="top-news-container">
+        <TopNews />
+      </div>
 
       <SectionLarge title="グッズ" id="works">
         <Link to={"/works"} className="link highlight">すべてみる&nbsp;&gt;</Link>
@@ -52,8 +51,8 @@ const IndexPage = () => {
         <Card title={tentouPostCardA.title} description={tentouPostCardA.description} link={tentouPostCardA.link}>
           <PostcardAImg page="top" />
         </Card>
-        <Card title={yahoshiTShirt.title} description={yahoshiTShirt.description} link={yahoshiTShirt.link}>
-          <YahoshiTShirtImg page="top" />
+        <Card title={kasaiTShirt.title} description={kasaiTShirt.description} link={kasaiTShirt.link}>
+          <KasaiTShirtImg page="top" />
         </Card>
 
         <Link to={"/works"} className="link highlight">もっとみる&nbsp;&gt;</Link>

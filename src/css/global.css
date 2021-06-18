@@ -74,7 +74,7 @@ header {
 
 .page-top-sentence {
     width: 90%;
-    padding: 40px 30px;
+    padding: 20px 30px;
     margin: 5px auto;
     text-align: center;
 }
@@ -89,7 +89,7 @@ header {
 
 .section-large {
     width: 90%;
-    padding: 0 30px 50px 30px;
+    padding: 30px 30px 50px 30px;
     margin: 0 auto 20px auto;
     text-align: center;
 }
@@ -113,6 +113,15 @@ header {
     font-weight: 500;
     margin: 0 15px;
     display: inline-block;
+}
+
+.in-text-link {
+    color: hsl(221, 100%, 50%);
+    display: inline-block;
+}
+
+.in-text-link:hover {
+    text-decoration: underline;
 }
 
 .card {
@@ -181,6 +190,7 @@ header {
     .section-large {
         width: 90%;
         padding: 10px;
+        margin: 0 auto 10px auto;
     }
 
     .card {
@@ -521,6 +531,28 @@ header {
 @media screen and (max-width: 480px) {
     .tentou-cards-data-description {
         padding-left: 17px;
+    }
+}
+
+.top-news-container {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.top-news {
+    display: inline-block;
+    margin: 5px auto;
+    padding: 10px;
+    max-width: 1000px;
+    background-color: #fff0c8;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    .top-news {
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px;
     }
 }
 

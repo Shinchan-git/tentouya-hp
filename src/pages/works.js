@@ -4,8 +4,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import WorksCard from "../components/worksCard"
 import BackButton from "../components/backButton"
-import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, tentouPostCardB, yahoshiTShirt, amidaTShirt, phoneCaseTatesujihime, phoneCasePop, blanketPop } from "../components/worksData"
-import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, PostcardBImg, YahoshiTShirtImg, AmidaTShirtImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg, BlanketPopImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, tentouPostCardB, kasaiTShirt, amidaTShirt, yahoshiTShirt, phoneCaseTatesujihime, phoneCasePop } from "../components/worksData"
+import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, PostcardBImg, KasaiTShirtImg, AmidaTShirtImg, YahoshiTShirtImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg } from "../components/thumbnailImages"
 
 const Works = () => {
   return (
@@ -43,12 +43,16 @@ const Works = () => {
             <PostcardBImg page="works" />
           </WorksCard>
 
-          <WorksCard link="/works/yahoshi-tshirt" title={yahoshiTShirt.title}>
-            <YahoshiTShirtImg page="works" />
+          <WorksCard link="/works/kasai-tshirt" title={kasaiTShirt.title}>
+            <KasaiTShirtImg page="works" />
           </WorksCard>
 
           <WorksCard link="/works/amida-tshirt" title={amidaTShirt.title}>
             <AmidaTShirtImg page="works" />
+          </WorksCard>
+
+          <WorksCard link="/works/yahoshi-tshirt" title={yahoshiTShirt.title}>
+            <YahoshiTShirtImg page="works" />
           </WorksCard>
 
           <WorksCard link="/works/phone-case-tatesujihimejinngasahamushi" title={phoneCaseTatesujihime.title}>
@@ -57,10 +61,6 @@ const Works = () => {
 
           <WorksCard link="/works/phone-case-pop" title={phoneCasePop.title}>
             <PhoneCasePopImg page="works" />
-          </WorksCard>
-
-          <WorksCard link="/works/blanket-pop" title={blanketPop.title}>
-            <BlanketPopImg page="works" />
           </WorksCard>
         </div>
       </div>

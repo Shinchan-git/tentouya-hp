@@ -30,11 +30,11 @@ export const tentouPostCardB = {
 }
 
 //SUZURI
-export const yahoshiTShirt = {
-  title: "ヤホシテントウのTシャツ",
-  description: "沖縄より南にしかいないテントウムシ。湿地に生える植物の葉の上で生活しています。様々なバリエーションの模様をしているのにヤホシという名前が付いているのは、学名から取っているからでしょう。",
-  link: "https://suzuri.jp/Tentouya/4834232/t-shirt/m/white",
-  twitterImg: "https://tentouya.netlify.app/static/ee2a3dac03b39358a82d1abf30c2d6fe/ba986/yahoshitshirt.png"
+export const kasaiTShirt = {
+  title: "カサイテントウのTシャツ",
+  description: "珍しい、かっこいい、大きいという、珍・美・大を兼ね備えたカサイテントウの模様を抜き出してデザインしました。北海道の一部にしか分布せず、五葉松の仲間につくアブラムシを食べます。日本で似た模様のテントウはおらず、特別感の強い、作者も憧れの種です。",
+  link: "",
+  twitterImg: "https://tentouya.netlify.app/static/9b8d6020eebe8b2246121d422d174ee7/ba986/kasaitshirt.png"
 }
 
 export const amidaTShirt = {
@@ -42,6 +42,13 @@ export const amidaTShirt = {
   description: "アミダテントウAmida tricolor (Harold, 1878)の模様のTシャツです。",
   link: "https://suzuri.jp/Tentouya/4661673/t-shirt/m/californiaorange",
   twitterImg: "https://tentouya.netlify.app/static/92b32cbde32de891e02e3d32cda2f64b/ba986/amida_tshirt.png"
+}
+
+export const yahoshiTShirt = {
+  title: "ヤホシテントウのTシャツ",
+  description: "沖縄より南にしかいないテントウムシ。湿地に生える植物の葉の上で生活しています。様々なバリエーションの模様をしているのにヤホシという名前が付いているのは、学名から取っているからでしょう。",
+  link: "https://suzuri.jp/Tentouya/4834232/t-shirt/m/white",
+  twitterImg: "https://tentouya.netlify.app/static/ee2a3dac03b39358a82d1abf30c2d6fe/ba986/yahoshitshirt.png"
 }
 
 export const phoneCaseTatesujihime = {

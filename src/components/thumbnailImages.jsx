@@ -143,11 +143,11 @@ export function PostcardBImg(props) {
   }
 }
 
-export function YahoshiTShirtImg(props) {
+export function KasaiTShirtImg(props) {
   if (props.page === "top") {
     return (
       <StaticImage
-        src="../images/thumbnails/yahoshitshirt.png"
+        src="../images/thumbnails/kasaitshirt.png"
         placeholder="blurred"
         className="card-img left-border-radius"
       />
@@ -155,7 +155,7 @@ export function YahoshiTShirtImg(props) {
   } else if (props.page === "works") {
     return (
       <StaticImage
-        src="../images/thumbnails/yahoshitshirt.png"
+        src="../images/thumbnails/kasaitshirt.png"
         placeholder="blurred"
         className="works-card-img"
       />
@@ -163,7 +163,7 @@ export function YahoshiTShirtImg(props) {
   } else {
     return (
       <StaticImage
-        src="../images/thumbnails/yahoshitshirt.png"
+        src="../images/thumbnails/kasaitshirt.png"
         placeholder="blurred"
       />
     )
@@ -191,6 +191,33 @@ export function AmidaTShirtImg(props) {
     return (
       <StaticImage
         src="../images/thumbnails/amida_tshirt.png"
+        placeholder="blurred"
+      />
+    )
+  }
+}
+
+export function YahoshiTShirtImg(props) {
+  if (props.page === "top") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/yahoshitshirt.png"
+        placeholder="blurred"
+        className="card-img left-border-radius"
+      />
+    )
+  } else if (props.page === "works") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/yahoshitshirt.png"
+        placeholder="blurred"
+        className="works-card-img"
+      />
+    )
+  } else {
+    return (
+      <StaticImage
+        src="../images/thumbnails/yahoshitshirt.png"
         placeholder="blurred"
       />
     )

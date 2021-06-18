@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-works-blanket-pop-jsx": () => import("./../../../src/pages/works/blanket-pop.jsx" /* webpackChunkName: "component---src-pages-works-blanket-pop-jsx" */),
   "component---src-pages-works-js": () => import("./../../../src/pages/works.js" /* webpackChunkName: "component---src-pages-works-js" */),
   "component---src-pages-works-kamenokotentou-papercraft-jsx": () => import("./../../../src/pages/works/kamenokotentou-papercraft.jsx" /* webpackChunkName: "component---src-pages-works-kamenokotentou-papercraft-jsx" */),
+  "component---src-pages-works-kasai-tshirt-jsx": () => import("./../../../src/pages/works/kasai-tshirt.jsx" /* webpackChunkName: "component---src-pages-works-kasai-tshirt-jsx" */),
   "component---src-pages-works-phone-case-pop-jsx": () => import("./../../../src/pages/works/phone-case-pop.jsx" /* webpackChunkName: "component---src-pages-works-phone-case-pop-jsx" */),
   "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx": () => import("./../../../src/pages/works/phone-case-tatesujihimejinngasahamushi.jsx" /* webpackChunkName: "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx" */),
   "component---src-pages-works-tentou-playing-cards-jsx": () => import("./../../../src/pages/works/tentou-playing-cards.jsx" /* webpackChunkName: "component---src-pages-works-tentou-playing-cards-jsx" */),
