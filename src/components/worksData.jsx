@@ -33,7 +33,7 @@ export const tentouPostCardB = {
 export const kasaiTShirt = {
   title: "カサイテントウのTシャツ",
   description: "珍しい、かっこいい、大きいという、珍・美・大を兼ね備えたカサイテントウの模様を抜き出してデザインしました。北海道の一部にしか分布せず、五葉松の仲間につくアブラムシを食べます。日本で似た模様のテントウはおらず、特別感の強い、作者も憧れの種です。",
-  link: "",
+  link: "https://suzuri.jp/Tentouya/7196837/t-shirt/m/black",
   twitterImg: "https://tentouya.netlify.app/static/9b8d6020eebe8b2246121d422d174ee7/ba986/kasaitshirt.png"
 }
 
