@@ -51,6 +51,13 @@ export const yahoshiTShirt = {
   twitterImg: "https://tentouya.netlify.app/static/ee2a3dac03b39358a82d1abf30c2d6fe/ba986/yahoshitshirt.png"
 }
 
+export const beatingNetBandana = {
+  title: "ビーティングネットバンダナ",
+  description: "ビーティングネット型のバンダナです。ハンカチとしても使用できます。ネットの上には南西諸島でソテツから採れるテントウムシが乗っています。\nビーティングネットは草や木を叩いて落ちてくる虫を採るための道具で、甲虫やカメムシ、クモなどの採集によく使われます。\nテントウの種類は左上からチュウジョウテントウ、チビテントウの一種、ケブカメツブテントウ、アマミアカホシテントウです。",
+  link: "https://suzuri.jp/Tentouya/7245981/bandana/m/white",
+  twitterImg: "https://tentouya.netlify.app/static/adbe6f36942b11279d14345bc53b6e09/ba986/beating_net_bandana.png"
+}
+
 export const phoneCaseTatesujihime = {
   title: "タテスジヒメジンガサハムシのスマホケース",
   description: "日本で最も美しいカメノコハムシ類とも言える、タテスジヒメジンガサハムシのスマホケースです。クリアケースで翅の透明感を表現しました。",

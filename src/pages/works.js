@@ -4,8 +4,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import WorksCard from "../components/worksCard"
 import BackButton from "../components/backButton"
-import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, tentouPostCardB, kasaiTShirt, amidaTShirt, yahoshiTShirt, phoneCaseTatesujihime, phoneCasePop } from "../components/worksData"
-import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, PostcardBImg, KasaiTShirtImg, AmidaTShirtImg, YahoshiTShirtImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, tentouPostCardB, kasaiTShirt, amidaTShirt, yahoshiTShirt, beatingNetBandana, phoneCaseTatesujihime, phoneCasePop } from "../components/worksData"
+import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, PostcardBImg, KasaiTShirtImg, AmidaTShirtImg, YahoshiTShirtImg, BeatingNetBandanaImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg } from "../components/thumbnailImages"
 
 const Works = () => {
   return (
@@ -53,6 +53,10 @@ const Works = () => {
 
           <WorksCard link="/works/yahoshi-tshirt" title={yahoshiTShirt.title}>
             <YahoshiTShirtImg page="works" />
+          </WorksCard>
+
+          <WorksCard link="/works/beating-net-bandana" title={beatingNetBandana.title}>
+            <BeatingNetBandanaImg page="works" />
           </WorksCard>
 
           <WorksCard link="/works/phone-case-tatesujihimejinngasahamushi" title={phoneCaseTatesujihime.title}>

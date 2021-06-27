@@ -224,6 +224,33 @@ export function YahoshiTShirtImg(props) {
   }
 }
 
+export function BeatingNetBandanaImg(props) {
+  if (props.page === "top") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/beating_net_bandana.png"
+        placeholder="blurred"
+        className="card-img left-border-radius"
+      />
+    )
+  } else if (props.page === "works") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/beating_net_bandana.png"
+        placeholder="blurred"
+        className="works-card-img"
+      />
+    )
+  } else {
+    return (
+      <StaticImage
+        src="../images/thumbnails/beating_net_bandana.png"
+        placeholder="blurred"
+      />
+    )
+  }
+}
+
 export function PhoneCaseTatesujihimeImg(props) {
   if (props.page === "top") {
     return (
