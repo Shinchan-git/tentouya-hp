@@ -135,6 +135,8 @@ header {
     background-color: hsl(222, 20%, 99%);
     border-radius: 7px;
     border: 1px solid rgb(200, 200, 200);
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
 }
 
 .card-img {
@@ -241,6 +243,7 @@ header {
 }
 
 .works-card {
+    z-index: 1;
     width: 30vw;
     height: 40vw;
     max-width: 300px;
@@ -251,6 +254,8 @@ header {
     background-color: #ffffff;
     border-radius: 6px;
     border: 2px solid #ffffff;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
 }
 
 .works-card:hover {
