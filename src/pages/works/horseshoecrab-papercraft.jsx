@@ -12,15 +12,14 @@ const Description = () => {
   return (
     <p className="main-text">
       カブトガニの10齢幼生のペーパークラフトです。<br />
-      細かいパーツまでリアルな作りになっています。<br />
-      <br /><br />
+      細かいパーツまでリアルな作りになっています。<br /><br />
       ご購入いただくと、PDFファイルの展開図がダウンロードできます。<br />
       ぜひ紙で立体作品を作る楽しさを見つけてみてください！
     </p>
   )
 }
 
-const KamenokoPapercraft = () => {
+const HorseshoeCrabPapercraft = () => {
   return (
     <div className="bg">
       <html lang="ja" />
@@ -67,4 +66,4 @@ const KamenokoPapercraft = () => {
   )
 }
 
-export default KamenokoPapercraft
+export default HorseshoeCrabPapercraft

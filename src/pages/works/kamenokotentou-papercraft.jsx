@@ -5,7 +5,7 @@ import Footer from "../../components/footer"
 import WorksDetail from "../../components/worksDetail"
 import BackButton from "../../components/backButton"
 import { kamenokoPapercraft } from "../../components/worksData"
-import { KamenokoImg, KamenokoYoutubeFrame } from "../../components/thumbnailImages"
+import { KamenokoImages, KamenokoYoutubeFrame } from "../../components/thumbnailImages"
 
 
 const Description = () => {
@@ -40,14 +40,20 @@ const KamenokoPapercraft = () => {
       <main className="works-detail-container">
         <WorksDetail data={kamenokoPapercraft}>
           <div className="padding-30-0">
-            <KamenokoImg />
+            <KamenokoImages imgNum="1" />
           </div>
           <div className="buy-button">
             <a href={kamenokoPapercraft.link} target="_blank" rel="noopener noreferrer" className="link highlight">
               購入する&nbsp;&#8599;
             </a>
           </div>
+
           <Description />
+
+          <div className="padding-30-0">
+            <KamenokoImages imgNum="2" />
+          </div>
+
           <div className="padding-30-0">
             <KamenokoYoutubeFrame />
           </div>

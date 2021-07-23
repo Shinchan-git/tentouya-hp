@@ -89,6 +89,25 @@ export function KamenokoImg(props) {
   }
 }
 
+export function KamenokoImages(props) {
+  switch (props.imgNum) {
+    case "1":
+      return (
+        <StaticImage
+          src="../images/thumbnails/kamenoko_img.jpg"
+          placeholder="blurred"
+        />
+      )
+    case "2":
+      return (
+        <StaticImage
+          src="../images/thumbnails/kamenoko_2.jpg"
+          placeholder="blurred"
+        />
+      )
+  }
+}
+
 export function HorseshoeCrabImg(props) {
   if (props.page === "top") {
     return (
