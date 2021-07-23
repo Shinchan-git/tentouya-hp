@@ -4,8 +4,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import WorksCard from "../components/worksCard"
 import BackButton from "../components/backButton"
-import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, tentouPostCardB, kasaiTShirt, amidaTShirt, yahoshiTShirt, beatingNetBandana, phoneCaseTatesujihime, phoneCasePop } from "../components/worksData"
-import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, PostcardBImg, KasaiTShirtImg, AmidaTShirtImg, YahoshiTShirtImg, BeatingNetBandanaImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, kamenokoPapercraft, horseshoeCrabPapercraft, tentouPostCardA, tentouPostCardB, kasaiTShirt, amidaTShirt, yahoshiTShirt, beatingNetBandana, phoneCaseTatesujihime, phoneCasePop } from "../components/worksData"
+import { TentouPlayingCardsImg, KamenokoImg, HorseshoeCrabImg, PostcardAImg, PostcardBImg, KasaiTShirtImg, AmidaTShirtImg, YahoshiTShirtImg, BeatingNetBandanaImg, PhoneCaseTatesujihimeImg, PhoneCasePopImg } from "../components/thumbnailImages"
 
 const Works = () => {
   return (
@@ -33,6 +33,10 @@ const Works = () => {
 
           <WorksCard link="/works/kamenokotentou-papercraft" title={kamenokoPapercraft.title}>
             <KamenokoImg page="works" />
+          </WorksCard>
+
+          <WorksCard link="/works/horseshoecrab-papercraft" title={horseshoeCrabPapercraft.title}>
+            <HorseshoeCrabImg page="works" />
           </WorksCard>
 
           <WorksCard link="/works/tentou-postcard-1" title={tentouPostCardA.title}>

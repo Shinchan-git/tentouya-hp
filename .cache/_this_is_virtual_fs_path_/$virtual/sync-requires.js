@@ -13,6 +13,7 @@ exports.components = {
   "component---src-pages-works-amida-tshirt-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/amida-tshirt.jsx")),
   "component---src-pages-works-beating-net-bandana-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/beating-net-bandana.jsx")),
   "component---src-pages-works-blanket-pop-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/blanket-pop.jsx")),
+  "component---src-pages-works-horseshoecrab-papercraft-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/horseshoecrab-papercraft.jsx")),
   "component---src-pages-works-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works.js")),
   "component---src-pages-works-kamenokotentou-papercraft-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/kamenokotentou-papercraft.jsx")),
   "component---src-pages-works-kasai-tshirt-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/kasai-tshirt.jsx")),

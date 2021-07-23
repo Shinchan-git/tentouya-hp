@@ -15,6 +15,14 @@ export const kamenokoPapercraft = {
   twitterImg: "https://tentouya.netlify.app/static/b1eb75493e2657bc4252bd7cf27e2934/2b6b9/kamenoko_img.jpg"
 }
 
+export const horseshoeCrabPapercraft = {
+  title: "カブトガニの幼生のペーパークラフト",
+  description: "カブトガニの10齢幼生のペーパークラフトです。細かいパーツまでリアルな作りになっています。",
+  link: "https://tentouya.base.shop/items/49277227",
+  detailLink: "/works/horseshoecrab-papercraft",
+  twitterImg: "https://tentouya.netlify.app/static/51825223852910a96c7cba62e018d86f/c088f/horseshoecrab_1.jpg"
+}
+
 export const tentouPostCardA = {
   title: "テントウムシの正面顔絵はがき",
   description: "普段なかなか見ることのないテントウムシの正面顔を絵はがきにしました。種類によって様々な特徴があることに気付くと、虫を見る楽しみが更に増えていくと思います！",

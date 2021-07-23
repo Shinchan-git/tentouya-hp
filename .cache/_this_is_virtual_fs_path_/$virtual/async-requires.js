@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-works-amida-tshirt-jsx": () => import("./../../../src/pages/works/amida-tshirt.jsx" /* webpackChunkName: "component---src-pages-works-amida-tshirt-jsx" */),
   "component---src-pages-works-beating-net-bandana-jsx": () => import("./../../../src/pages/works/beating-net-bandana.jsx" /* webpackChunkName: "component---src-pages-works-beating-net-bandana-jsx" */),
   "component---src-pages-works-blanket-pop-jsx": () => import("./../../../src/pages/works/blanket-pop.jsx" /* webpackChunkName: "component---src-pages-works-blanket-pop-jsx" */),
+  "component---src-pages-works-horseshoecrab-papercraft-jsx": () => import("./../../../src/pages/works/horseshoecrab-papercraft.jsx" /* webpackChunkName: "component---src-pages-works-horseshoecrab-papercraft-jsx" */),
   "component---src-pages-works-js": () => import("./../../../src/pages/works.js" /* webpackChunkName: "component---src-pages-works-js" */),
   "component---src-pages-works-kamenokotentou-papercraft-jsx": () => import("./../../../src/pages/works/kamenokotentou-papercraft.jsx" /* webpackChunkName: "component---src-pages-works-kamenokotentou-papercraft-jsx" */),
   "component---src-pages-works-kasai-tshirt-jsx": () => import("./../../../src/pages/works/kasai-tshirt.jsx" /* webpackChunkName: "component---src-pages-works-kasai-tshirt-jsx" */),

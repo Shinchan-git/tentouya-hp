@@ -89,6 +89,52 @@ export function KamenokoImg(props) {
   }
 }
 
+export function HorseshoeCrabImg(props) {
+  if (props.page === "top") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/horseshoecrab_1.jpg"
+        placeholder="blurred"
+        className="card-img left-border-radius"
+      />
+    )
+  } else if (props.page === "works") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/horseshoecrab_1.jpg"
+        placeholder="blurred"
+        className="works-card-img"
+      />
+    )
+  } else {
+    return (
+      <StaticImage
+        src="../images/thumbnails/horseshoecrab_1.jpg"
+        placeholder="blurred"
+      />
+    )
+  }
+}
+
+export function HorseshoeCrabImages(props) {
+  switch (props.imgNum) {
+    case "1":
+      return (
+        <StaticImage
+          src="../images/thumbnails/horseshoecrab_1.jpg"
+          placeholder="blurred"
+        />
+      )
+    case "2":
+      return (
+        <StaticImage
+          src="../images/thumbnails/horseshoecrab_2.jpg"
+          placeholder="blurred"
+        />
+      )
+  }
+}
+
 export function PostcardAImg(props) {
   if (props.page === "top") {
     return (
@@ -348,6 +394,20 @@ export function KamenokoYoutubeFrame() {
       <iframe
         className="youtube-frame"
         src="https://www.youtube.com/embed/esBwF8qbMOo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
+    </main>
+  )
+}
+
+export function HorseshoeCrabYoutubeFrame() {
+  return (
+    <main className="youtube-frame-container">
+      <iframe
+        className="youtube-frame"
+        src="https://www.youtube.com/embed/ItWuONxWQu4"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
