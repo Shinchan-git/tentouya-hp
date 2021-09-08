@@ -30,7 +30,7 @@ export const maimaikaburiPapercraft = {
   description: "マイマイカブリ基亜種（ホンマイ）のペーパークラフトです。",
   link: "https://tentouya.base.shop/items/51778458",
   detailLink: "/works/maimaikaburi-papercraft",
-  twitterImg: MaimaikaburiOGP
+  twitterImg: "https://tentouya.netlify.app/static/c430c5d2479620a93af9fb2749e59bc4/f919c/maimaikaburi_1.jpg"
 }
 
 export const tentouPostCardA = {
