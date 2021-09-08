@@ -6,6 +6,7 @@ import WorksDetail from "../../components/worksDetail"
 import BackButton from "../../components/backButton"
 import { maimaikaburiPapercraft } from "../../components/worksData"
 import { MaimaikaburiImages, MaimaikaburiYoutubeFrame } from "../../components/thumbnailImages"
+import { MaimaikaburiOGP } from "../../components/thumbnailImages"
 
 
 const Description = () => {
@@ -95,7 +96,7 @@ const MaimaikaburiPapercraft = () => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@tentouya64" />
       <meta name="twitter:title" content={maimaikaburiPapercraft.title + " - てんとうや"} />
-      <meta name="twitter:image" content={maimaikaburiPapercraft.twitterImg} />
+      <meta name="twitter:image" content={MaimaikaburiOGP} />
 
       <Header />
       <div className="line-padding-10" />
