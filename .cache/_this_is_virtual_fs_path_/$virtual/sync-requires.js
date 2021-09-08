@@ -4,6 +4,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/index.js")),
   "component---src-pages-tentoufukuwarai-futahoshi-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/tentoufukuwarai/futahoshi.jsx")),
@@ -17,6 +18,7 @@ exports.components = {
   "component---src-pages-works-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works.js")),
   "component---src-pages-works-kamenokotentou-papercraft-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/kamenokotentou-papercraft.jsx")),
   "component---src-pages-works-kasai-tshirt-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/kasai-tshirt.jsx")),
+  "component---src-pages-works-maimaikaburi-papercraft-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/maimaikaburi-papercraft.jsx")),
   "component---src-pages-works-phone-case-pop-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/phone-case-pop.jsx")),
   "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/phone-case-tatesujihimejinngasahamushi.jsx")),
   "component---src-pages-works-tentou-playing-cards-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/works/tentou-playing-cards.jsx")),

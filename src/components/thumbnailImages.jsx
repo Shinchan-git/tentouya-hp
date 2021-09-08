@@ -154,6 +154,61 @@ export function HorseshoeCrabImages(props) {
   }
 }
 
+export function MaimaikaburiImg(props) {
+  if (props.page === "top") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/maimaikaburi_1.jpg"
+        placeholder="blurred"
+        className="card-img left-border-radius"
+      />
+    )
+  } else if (props.page === "works") {
+    return (
+      <StaticImage
+        src="../images/thumbnails/maimaikaburi_1.jpg"
+        placeholder="blurred"
+        className="works-card-img"
+      />
+    )
+  } else {
+    return (
+      <StaticImage
+        src="../images/thumbnails/maimaikaburi_1.jpg"
+        placeholder="blurred"
+      />
+    )
+  }
+}
+
+export function MaimaikaburiImages(props) {
+  switch (props.imgNum) {
+    case "1":
+      return (
+        <StaticImage
+          src="../images/thumbnails/maimaikaburi_1.jpg"
+          placeholder="blurred"
+        />
+      )
+    case "2":
+      return (
+        <StaticImage
+          src="../images/thumbnails/maimaikaburi_2.jpg"
+          placeholder="blurred"
+        />
+      )
+  }
+}
+
+export function MaimaikaburiOGP() {
+  return (
+    <StaticImage
+      src="../images/thumbnails/maimaikaburi_ogp.jpg"
+      placeholder="blurred"
+    />
+  )
+}
+
 export function PostcardAImg(props) {
   if (props.page === "top") {
     return (
@@ -427,6 +482,20 @@ export function HorseshoeCrabYoutubeFrame() {
       <iframe
         className="youtube-frame"
         src="https://www.youtube.com/embed/ItWuONxWQu4"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
+    </main>
+  )
+}
+
+export function MaimaikaburiYoutubeFrame() {
+  return (
+    <main className="youtube-frame-container">
+      <iframe
+        className="youtube-frame"
+        src="https://www.youtube.com/embed/1m7rtRYI7YI"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen

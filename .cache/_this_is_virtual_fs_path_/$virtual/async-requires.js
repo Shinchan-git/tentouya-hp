@@ -2,6 +2,7 @@
 const preferDefault = m => (m && m.default) || m
 
 exports.components = {
+  "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-tentoufukuwarai-futahoshi-jsx": () => import("./../../../src/pages/tentoufukuwarai/futahoshi.jsx" /* webpackChunkName: "component---src-pages-tentoufukuwarai-futahoshi-jsx" */),
@@ -15,6 +16,7 @@ exports.components = {
   "component---src-pages-works-js": () => import("./../../../src/pages/works.js" /* webpackChunkName: "component---src-pages-works-js" */),
   "component---src-pages-works-kamenokotentou-papercraft-jsx": () => import("./../../../src/pages/works/kamenokotentou-papercraft.jsx" /* webpackChunkName: "component---src-pages-works-kamenokotentou-papercraft-jsx" */),
   "component---src-pages-works-kasai-tshirt-jsx": () => import("./../../../src/pages/works/kasai-tshirt.jsx" /* webpackChunkName: "component---src-pages-works-kasai-tshirt-jsx" */),
+  "component---src-pages-works-maimaikaburi-papercraft-jsx": () => import("./../../../src/pages/works/maimaikaburi-papercraft.jsx" /* webpackChunkName: "component---src-pages-works-maimaikaburi-papercraft-jsx" */),
   "component---src-pages-works-phone-case-pop-jsx": () => import("./../../../src/pages/works/phone-case-pop.jsx" /* webpackChunkName: "component---src-pages-works-phone-case-pop-jsx" */),
   "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx": () => import("./../../../src/pages/works/phone-case-tatesujihimejinngasahamushi.jsx" /* webpackChunkName: "component---src-pages-works-phone-case-tatesujihimejinngasahamushi-jsx" */),
   "component---src-pages-works-tentou-playing-cards-jsx": () => import("./../../../src/pages/works/tentou-playing-cards.jsx" /* webpackChunkName: "component---src-pages-works-tentou-playing-cards-jsx" */),

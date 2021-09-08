@@ -1,3 +1,5 @@
+import { MaimaikaburiOGP } from "./thumbnailImages"
+
 //BASE
 export const tentouPlayingCards = {
   title: "テントウトランプ",
@@ -21,6 +23,14 @@ export const horseshoeCrabPapercraft = {
   link: "https://tentouya.base.shop/items/49277227",
   detailLink: "/works/horseshoecrab-papercraft",
   twitterImg: "https://tentouya.netlify.app/static/51825223852910a96c7cba62e018d86f/c088f/horseshoecrab_1.jpg"
+}
+
+export const maimaikaburiPapercraft = {
+  title: "マイマイカブリのペーパークラフト",
+  description: "マイマイカブリ基亜種（ホンマイ）のペーパークラフトです。",
+  link: "https://tentouya.base.shop/items/51778458",
+  detailLink: "/works/maimaikaburi-papercraft",
+  twitterImg: MaimaikaburiOGP
 }
 
 export const tentouPostCardA = {

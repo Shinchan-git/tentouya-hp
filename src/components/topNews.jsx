@@ -12,6 +12,7 @@ export default function TopNews() {
           </a>
         </span>
         <span className="inline-block">に出展します！！</span>
+        <span className="inline-block">ブースはB-22です。</span>
       </p>
     </div>
   )

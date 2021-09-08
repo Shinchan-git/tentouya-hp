@@ -8,8 +8,8 @@ import SectionLarge from "../components/sectionLarge"
 import ShopLink from "../components/shopLink"
 import Card from "../components/card"
 import Footer from "../components/footer"
-import { tentouPlayingCards, kamenokoPapercraft, tentouPostCardA, kasaiTShirt, fukuwarai } from "../components/worksData"
-import { TentouPlayingCardsImg, KamenokoImg, PostcardAImg, KasaiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, horseshoeCrabPapercraft, kamenokoPapercraft, tentouPostCardA, kasaiTShirt, fukuwarai } from "../components/worksData"
+import { TentouPlayingCardsImg, HorseshoeCrabImg, KamenokoImg, PostcardAImg, KasaiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
 
 const IndexPage = () => {
   return (
@@ -45,8 +45,8 @@ const IndexPage = () => {
         <Card title={tentouPlayingCards.title} description={tentouPlayingCards.description} link={tentouPlayingCards.link} toLink="detail" detailLink={tentouPlayingCards.detailLink}>
           <TentouPlayingCardsImg page="top" />
         </Card>
-        <Card title={kamenokoPapercraft.title} description={kamenokoPapercraft.description} link={kamenokoPapercraft.link} toLink="detail" detailLink={kamenokoPapercraft.detailLink}>
-          <KamenokoImg page="top" />
+        <Card title={horseshoeCrabPapercraft.title} description={horseshoeCrabPapercraft.description} link={horseshoeCrabPapercraft.link} toLink="detail" detailLink={horseshoeCrabPapercraft.detailLink}>
+          <HorseshoeCrabImg page="top" />
         </Card>
         <Card title={tentouPostCardA.title} description={tentouPostCardA.description} link={tentouPostCardA.link}>
           <PostcardAImg page="top" />

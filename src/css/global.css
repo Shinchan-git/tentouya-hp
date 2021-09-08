@@ -22,11 +22,24 @@ p {
     color: rgb(25, 25, 25);
     margin: 0;
     padding: 0;
+    font-family: Noto Sans JP;
+    font-weight: 400;
 }
 
 a {
     text-decoration: none;
     font-family: Noto Sans JP;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .bg {
@@ -113,6 +126,11 @@ header {
     font-weight: 500;
     margin: 0 15px;
     display: inline-block;
+    border: none;
+    text-decoration: none;
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    background-color: transparent;
 }
 
 .in-text-link {
@@ -349,6 +367,55 @@ header {
     color: #7e7e7e;
     font-size: 12pt;
     font-weight: 400;
+}
+
+.color-sample-table {
+    padding-left: 10px;
+    border: solid 2px #d9d9d9;
+    border-radius: 6px;
+}
+
+.supporting-text {
+    font-size: 12pt;
+    color: #262626;
+    margin: 5px 0;
+}
+
+.color-sample-cell {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.color-sample-element {
+    margin: 0 5px;
+}
+
+.maimaikaburi-color-sample {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.maimaikaburi-black {
+    background-image: linear-gradient(0deg, #000 50%, #000 50%);
+}
+
+.maimaikaburi-red {
+    background-image: linear-gradient(0deg, #3d6433 50%, #8c213c 50%);
+}
+
+.maimaikaburi-green {
+    background-image: linear-gradient(0deg, #2f0a14 50%, #207b54 50%);
+}
+.maimaikaburi-red-purple {
+    background-image: linear-gradient(0deg, #32263a 50%, #7b2b72 50%);
+}
+
+.maimaikaburi-blue-purple {
+    background-image: linear-gradient(0deg, #20293f 50%, #24349b 50%);
 }
 
 .specimen-container {
