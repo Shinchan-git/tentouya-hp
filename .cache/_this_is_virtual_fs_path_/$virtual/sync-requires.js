@@ -4,7 +4,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/index.js")),
   "component---src-pages-tentoufukuwarai-futahoshi-jsx": preferDefault(require("/Users/owner/Desktop/web_design/tentouya_hp/src/pages/tentoufukuwarai/futahoshi.jsx")),
