@@ -8,8 +8,8 @@ import SectionLarge from "../components/sectionLarge"
 import ShopLink from "../components/shopLink"
 import Card from "../components/card"
 import Footer from "../components/footer"
-import { tentouPlayingCards, horseshoeCrabPapercraft, kamenokoPapercraft, tentouPostCardA, kasaiTShirt, fukuwarai } from "../components/worksData"
-import { TentouPlayingCardsImg, HorseshoeCrabImg, KamenokoImg, PostcardAImg, KasaiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
+import { tentouPlayingCards, horseshoeCrabPapercraft, tentouPostCardA, kasaiTShirt, fukuwarai } from "../components/worksData"
+import { TentouPlayingCardsImg, HorseshoeCrabImg, PostcardAImg, KasaiTShirtImg, FukuwaraiImg } from "../components/thumbnailImages"
 
 const IndexPage = () => {
   return (
@@ -35,9 +35,9 @@ const IndexPage = () => {
         </ShopLink>
       </PageTopSentence>
 
-      <div className="top-news-container">
+      {/* <div className="top-news-container">
         <TopNews />
-      </div>
+      </div> */}
 
       <SectionLarge title="グッズ" id="works">
         <Link to={"/works"} className="link highlight">すべてみる&nbsp;&gt;</Link>
