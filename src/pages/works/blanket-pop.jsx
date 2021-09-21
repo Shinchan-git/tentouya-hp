@@ -28,6 +28,7 @@ const BlanketPop = () => {
       <meta name="twitter:site" content="@tentouya64" />
       <meta name="twitter:title" content={blanketPop.title + " - てんとうや"} />
       <meta name="twitter:image" content={blanketPop.twitterImg} />
+      <meta name="theme-color" content="#0B308F" />
 
       <Header />
       <div className="line-padding-10" />

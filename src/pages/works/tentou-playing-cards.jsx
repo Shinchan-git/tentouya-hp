@@ -28,6 +28,7 @@ const TentouPlayingCards = () => {
       <meta name="twitter:site" content="@tentouya64" />
       <meta name="twitter:title" content={tentouPlayingCards.title + " - てんとうや"} />
       <meta name="twitter:image" content={tentouPlayingCards.twitterImg} />
+      <meta name="theme-color" content="#0B308F" />
 
       <Header />
       <div className="line-padding-10" />
@@ -56,7 +57,7 @@ const TentouPlayingCards = () => {
           <p className="main-text bold" id="tentou-playing-card-data">テントウトランプ解説</p>
           <p className="main-text">
             カタカナ表記が和名、アルファベットが学名（イタリック体）と記載者・記載年です。学名とは世界共通の名前です。記載（新種記載）とは、その種が新種であることを論文で示すことです。<br />
-          レア度：&#9733;1～5（多いほど珍しい） 作者の独断と偏見によります。
+            レア度：&#9733;1～5（多いほど珍しい） 作者の独断と偏見によります。
           </p>
 
           <TentouCardsData />
