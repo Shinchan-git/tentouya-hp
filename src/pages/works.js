@@ -19,7 +19,7 @@ const Works = () => {
       <meta name="twitter:site" content="@tentouya64" />
       <meta name="twitter:title" content="てんとうや" />
       <meta name="twitter:image" content="https://tentouya.netlify.app/static/twitter_card_img.png" />
-      <meta name="theme-color" content="#0B308F" />
+      <meta name="theme-color" content="#f3f4f7" />
 
       <Header />
 

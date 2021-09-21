@@ -9,7 +9,7 @@ const NotFoundPage = () => {
       <html lang="ja" />
       <title>Not found</title>
       <meta name="viewport" content="width=device-width" />
-      <meta name="theme-color" content="#0B308F" />
+      <meta name="theme-color" content="#f3f4f7" />
 
       <Header />
 

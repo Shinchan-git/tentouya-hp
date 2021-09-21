@@ -19,7 +19,7 @@ const FukuwaraiFutahoshi = () => {
       <meta name="twitter:site" content="@tentouya64" />
       <meta name="twitter:title" content="テントウ福笑い - てんとうや" />
       <meta name="twitter:image" content="https://tentouya.netlify.app/static/c3f6b5af837cd036b174925c47d0c1f6/9e5f6/fukuwarai_thumbnail.jpg" />
-      <meta name="theme-color" content="#0B308F" />
+      <meta name="theme-color" content="#f3f4f7" />
 
       <Header />
       <div className="line-padding-10" />
