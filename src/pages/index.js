@@ -36,9 +36,9 @@ const IndexPage = () => {
         </ShopLink>
       </PageTopSentence>
 
-      {/* <div className="top-news-container">
+      <div className="top-news-container">
         <TopNews />
-      </div> */}
+      </div>
 
       <SectionLarge title="グッズ" id="works">
         <Link to={"/works"} className="link highlight">すべてみる&nbsp;&gt;</Link>

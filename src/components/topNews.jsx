@@ -5,15 +5,21 @@ export default function TopNews() {
   return (
     <div className="top-news">
       <p className="main-text">
-        <span className="inline-block">2021年９月11(土)~12(日)、</span>
-        <span className="inline-block">
-          <a href="https://www.hakubutufes.info/" target="_blank" rel="noopener noreferrer" className="in-text-link">
-            博物ふぇすてぃばる！
-          </a>
-        </span>
-        <span className="inline-block">に出展します！！</span>
-        <span className="inline-block">ブースはB-22です。</span>
+        2021年11月23(火)、大手町インセクトフェアに出展します！
       </p>
     </div>
   )
 }
+
+{/* <div className="top-news">
+  <p className="main-text">
+    <span className="inline-block">2021年９月11(土)~12(日)、</span>
+    <span className="inline-block">
+      <a href="https://www.hakubutufes.info/" target="_blank" rel="noopener noreferrer" className="in-text-link">
+        博物ふぇすてぃばる！
+      </a>
+    </span>
+    <span className="inline-block">に出展します！！</span>
+    <span className="inline-block">ブースはB-22です。</span>
+  </p>
+</div> */}
